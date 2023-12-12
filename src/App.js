@@ -7,13 +7,11 @@ import HeroSection from "./components/HeroSection";
 export default function App() {
     return (
         <div>
-            {/*JSX */}
             <Header/>
                 <Routes>
                     <Route path={"/"} element={<HeroSection />}></Route>
                 </Routes>
             <Footer/>
-
         </div>
     );
 }
